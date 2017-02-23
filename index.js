@@ -20,7 +20,7 @@ var tplt = fs.readFile('./app/template/index.html', 'utf-8', function(err, data)
 		var output = TemplateEg(tplt, content);	
 		// console.log(output);
 
-		fs.writeFile('./public/index.html', output, (err) => {
+		fs.writeFile('./index.html', output, (err) => {
 			if (err) throw err;
 			console.log('Render Success.');
 		});

@@ -1,5 +1,4 @@
 
-
 .wrapper {
   display: -webkit-box;
   display: -moz-box;
@@ -25,7 +24,6 @@
 	flex: 1 100%;
 }
 
-
 .header {
 	color: grey;
 }
@@ -34,8 +32,8 @@
 	background-color: grey;
 }
 
-.sidebar-left {
-	background-color: lightyellow;
+.sidebar {
+	background-color: grey;
 }
 
 .post {
