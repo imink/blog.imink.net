@@ -50,7 +50,7 @@
 }
 
 @media all and (min-width: 800px) {
-  .post { flex: 3 0px; }
+  .post { flex: 4 0px; }
   
   .sidebar-left { order: 1; }
   .post    { order: 2; }
